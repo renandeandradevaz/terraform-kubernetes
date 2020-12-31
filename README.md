@@ -12,8 +12,10 @@ When you finish this tutorial, you will have this resources created on you AWS a
 * 1 ingress-nginx to receive requests and proxy for pods
 
 
-First, we need to init terraform:
+First, we need to clone the repo and init terraform:
 ```
+git clone git@github.com:renandeandradevaz/terraform-kubernetes
+cd terraform-kubernetes
 terraform init
 ```
 
