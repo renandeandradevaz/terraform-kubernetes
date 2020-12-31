@@ -6,3 +6,4 @@ override.tf
 override.tf.json
 tls.crt
 tls.key
+kubeconfig*
