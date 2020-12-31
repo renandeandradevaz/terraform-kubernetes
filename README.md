@@ -25,6 +25,9 @@ kubectl apply -f banana.yaml
 kubectl apply -f apple.yaml
 ```
 
+```
+kubectl apply -f routes.yaml
+```
 
 Go to https://console.aws.amazon.com/ec2/v2/home#LoadBalancers and copy the DNS name
 
