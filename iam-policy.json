@@ -125,6 +125,19 @@
       "Resource": "*"
     },
     {
+            "Effect": "Allow",
+            "Action": [
+                "autoscaling:DescribeAutoScalingGroups",
+                "autoscaling:DescribeAutoScalingInstances",
+                "autoscaling:DescribeLaunchConfigurations",
+                "autoscaling:DescribeTags",
+                "autoscaling:SetDesiredCapacity",
+                "autoscaling:TerminateInstanceInAutoScalingGroup",
+                "ec2:DescribeLaunchTemplateVersions"
+            ],
+            "Resource": "*"
+        },
+    {
       "Effect": "Allow",
       "Action": [
         "shield:DescribeProtection",

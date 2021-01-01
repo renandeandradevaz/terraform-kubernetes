@@ -47,6 +47,12 @@ Deploy the routes:
 kubectl apply -f routes.yaml
 ```
 
+If you want to activate the auto scaler. You must run:
+```
+kubectl apply -f auto-scaler.yaml
+```
+
+
 After create all the resources, now it's time to test.
 Go to https://console.aws.amazon.com/ec2/v2/home#LoadBalancers and copy the DNS name
 

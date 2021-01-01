@@ -76,7 +76,7 @@ module "eks" {
 }
 
 resource "aws_iam_policy" "worker_policy" {
-  name        = "worker-policy"
+  name        = "iam-worker-policy"
   description = "Worker policy"
 
   policy = file("iam-policy.json")
