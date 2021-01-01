@@ -2,7 +2,7 @@
 
 
 This repo has some resources to start using Kubernetes and terraform.
-When you finish this tutorial, you will have this resources created on you AWS account:
+When you finish this tutorial, you will have this resources created on your AWS account:
 
 * EKS cluster
 * VPC, Subnets, Nat gateway, etc
