@@ -54,6 +54,9 @@ kubectl apply -f auto-scaler.yaml
 PS: The cluster's name is inside of the file above. The name is "my-cluster". If you choose a different name for the cluster, you must rename the cluster inside the file.
 
 
+---
+
+
 After create all the resources, now it's time to test.
 Go to https://console.aws.amazon.com/ec2/v2/home#LoadBalancers and copy the DNS name
 
