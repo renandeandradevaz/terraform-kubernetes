@@ -51,6 +51,7 @@ If you want to activate the auto scaler. You must run:
 ```
 kubectl apply -f auto-scaler.yaml
 ```
+PS: The cluster's name is inside of the file above. The name is "my-cluster". If you choose a different name for the cluster, you must rename the cluster inside the file.
 
 
 After create all the resources, now it's time to test.
