@@ -1,0 +1,23 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: json-log-generator-app
+  namespace: kube-system
+  labels:
+    app: json-log-generator
+spec:
+  containers:
+    - name: json-log-generator-app
+      image: renanvaz1991/json-log-generator
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: apple-service
+spec:
+  selector:
+    app: apple
+  ports:
+    - port: 5678
