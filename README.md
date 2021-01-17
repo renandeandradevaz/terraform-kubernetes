@@ -1,5 +1,6 @@
 # terraform-kubernetes (AWS)
 
+https://renandeandradevaz.medium.com/using-terraform-to-create-a-kubernetes-cluster-and-a-nginx-ingress-242fac453a7c
 
 This repo has some resources to start using Kubernetes and terraform.
 When you finish this tutorial, you will have this resources created on your AWS account:
