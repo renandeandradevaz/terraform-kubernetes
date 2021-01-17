@@ -76,3 +76,13 @@ In the end, you can remove all created resources to save money:
 terraform destroy
 ```
 
+
+---
+
+ELK STACK
+
+```
+TODO
+kubectl get pods -n kube-system
+kubectl port-forward -n kube-system kibana-logging-abc-xyz 5601:5601
+```
