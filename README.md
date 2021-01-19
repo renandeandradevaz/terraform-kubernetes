@@ -2,6 +2,8 @@
 
 https://renandeandradevaz.medium.com/using-terraform-to-create-a-kubernetes-cluster-and-a-nginx-ingress-242fac453a7c
 
+(PART 1)
+
 This repo has some resources to start using Kubernetes and terraform.
 When you finish this tutorial, you will have this resources created on your AWS account:
 
@@ -81,6 +83,10 @@ terraform destroy
 ---
 
 ELK STACK
+
+LINK_AQUI
+
+(PART 2)
 
 ```
 TODO

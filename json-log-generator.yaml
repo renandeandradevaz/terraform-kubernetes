@@ -15,9 +15,9 @@ spec:
 kind: Service
 apiVersion: v1
 metadata:
-  name: apple-service
+  name: json-log-generator-service
 spec:
   selector:
-    app: apple
+    app: json-log-generator
   ports:
     - port: 5678

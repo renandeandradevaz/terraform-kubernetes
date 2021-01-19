@@ -27,9 +27,18 @@ data:
       }
     }
     output {
+      if [app] { 
         elasticsearch {
-            hosts => [ "elasticsearch-logging:9200" ]
+          hosts => [ "elasticsearch-logging:9200" ]
+          index => "logs-%{app}-%{+YYYY.MM.dd}"
         }
+      }
+      if ![app] { 
+        elasticsearch {
+          hosts => [ "elasticsearch-logging:9200" ]
+          index => "logs-general-%{+YYYY.MM.dd}"
+        }
+      }
     }
 ---
 apiVersion: apps/v1
