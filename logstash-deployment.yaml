@@ -32,6 +32,16 @@ data:
           hosts => [ "elasticsearch-logging:9200" ]
           index => "logs-%{app}-%{+YYYY.MM.dd}"
         }
+        s3{
+          region => "REGION HERE"                   
+          bucket => "BUCKET HERE"                
+          prefix => "%{app}" 
+          size_file => 10000000                      
+          time_file => 10                         
+          codec => "plain"  
+          encoding => "gzip"                      
+          canned_acl => "private"
+        }
       }
       if ![app] { 
         elasticsearch {
