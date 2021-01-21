@@ -143,7 +143,7 @@ To verify if the logs are going to s3, you can verify directly on your bucket (T
 To verify if the logs are going to kibana, you have to do that:
 
 
-Get the kibana of the kibana pod:
+Get the name of the kibana pod:
 ```
 kubectl get pods -n kube-system
 ```
