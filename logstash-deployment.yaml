@@ -35,7 +35,7 @@ data:
         s3{
           region => "REGION HERE"                   
           bucket => "BUCKET HERE"                
-          prefix => "%{app}" 
+          prefix => "%{app}/%{+YYYY.MM.dd}" 
           size_file => 10000000                      
           time_file => 10                         
           codec => "plain"  
