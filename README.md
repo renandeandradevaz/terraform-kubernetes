@@ -84,7 +84,7 @@ terraform destroy
 
 # Kubernetes logs going to Kibana and s3
 
-LINK_AQUI
+https://renandeandradevaz.medium.com/sending-kubernetes-logs-to-kibana-and-s3-9d4b29ef02f3
 
 ## (PART 2)
 
